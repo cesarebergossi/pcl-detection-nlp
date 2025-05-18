@@ -14,14 +14,14 @@ We tackle this nuanced classification task by combining **DeBERTa-v3-Small**, **
 ├── model_bow.ipynb                # Bag-of-Words + Naive Bayes baseline
 ├── deberta.ipynb                  # Final DeBERTa-v3 training notebook
 ├── albert.ipynb                   # ALBERT (initial test model)
-├── hyperparameter_tuning.ipynb   # DeBERTa tuning experiments
-├── data_augmentation.py          # Back-translation + synonym replacement
+├── hyperparameter_tuning.ipynb    # DeBERTa tuning experiments
+├── data_augmentation.py           # Back-translation + synonym replacement
 ├── dev.txt                        # Development set (for evaluation)
 ├── test.txt                       # Test set (no labels)
 ├── requirements.txt               # Python dependencies
 ├── data/                          # Training, dev and test .csv/.tsv files
 ├── Dont_Patronize_Me_Trainingset/ # Raw dataset (from official task)
-├── figs/                          # Figures and plots for report/analysis
+├── figures/                       # Figures and plots for report/analysis
 ├── report.pdf                     # Final report
 └── README.md
 ```
