@@ -16,6 +16,9 @@ We tackle this nuanced classification task by combining **DeBERTa-v3-Small**, **
 ├── albert.ipynb                   # ALBERT (initial test model)
 ├── hyperparameter_tuning.ipynb   # DeBERTa tuning experiments
 ├── data_augmentation.py          # Back-translation + synonym replacement
+├── dev.txt                        # Development set (for evaluation)
+├── test.txt                       # Test set (no labels)
+├── requirements.txt               # Python dependencies
 ├── Data/                          # Training, dev and test .csv/.tsv files
 ├── Dont_Patronize_Me_Trainingset/ # Raw dataset (from official task)
 ├── figs/                          # Figures and plots for report/analysis
